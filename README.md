@@ -49,30 +49,30 @@ PageSpeed Insights suggests that there still is 1% reduction left on our JavaScr
 
 We reached here a pretty good result because the page is very simple without any JavaScript or complex CSS. The page is even so simple that it doesn't handle mobile devices and gets a bad scrore at usability.
 
-![desktop version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/v1-beanstalk-default-app/desktop.png "Desktop version")
+![desktop version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/results/v1-beanstalk-default-app/desktop.png "Desktop version")
 
-![Mobile version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/v1-beanstalk-default-app/mobile.png "Mobile version")
+![Mobile version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/results/v1-beanstalk-default-app/mobile.png "Mobile version")
 
 ## React Starter kit default application
 
 The score reached by the React Starter kit default application is very bad mostly because the project hasn't been build in production mode. But one important thing that we can notice is that the compression doesn't seem to be activated and this parameter is not likely to be activated even if we change the build parameter.
 
-![desktop version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/v2-starter-kit-default-app/desktop.png "Desktop version")
+![desktop version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/results/v2-starter-kit-default-app/desktop.png "Desktop version")
 
-![Mobile version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/v2-starter-kit-default-app/mobile.png "Mobile version")
+![Mobile version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/results/v2-starter-kit-default-app/mobile.png "Mobile version")
 
 ## With compression activated
 
 Once the compression has been activated we can see that only it remains suggestions that seem to be related to the build method.
 
-![desktop version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/v3-express-compression-activated/desktop.png "Desktop version")
+![desktop version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/results/v3-express-compression-activated/desktop.png "Desktop version")
 
-![Mobile version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/v3-express-compression-activated/mobile.png "Mobile version")
+![Mobile version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/results/v3-express-compression-activated/mobile.png "Mobile version")
 
 ## Build with the production parameter
 
 Here we are 99... Read above in the results section if you want to know why we consider this 99 as 100.
 
-![desktop version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/v4-build-for-production/desktop.png "Desktop version")
+![desktop version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/results/v4-build-for-production/desktop.png "Desktop version")
 
-![Mobile version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/v4-build-for-production/mobile.png "Mobile version")
+![Mobile version](https://github.com/benoitvallon/hit-100-pagespeed-insights/blob/master/results/v4-build-for-production/mobile.png "Mobile version")
