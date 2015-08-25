@@ -7,8 +7,12 @@ import path from 'path';
 import express from 'express';
 import ReactDOM from 'react-dom/server';
 import router from './router';
+import compression from 'compression';
 
 const server = global.server = express();
+
+// compress all requests
+server.use(compression());
 
 server.set('port', (process.env.PORT || 5000));
 server.use(express.static(path.join(__dirname, 'public')));
